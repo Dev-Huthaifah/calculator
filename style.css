@@ -9,6 +9,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+.calculator {
+  background-color: #222D2750;
+  padding: 16px;
+  border-radius: 12px;
+}
 .display {
   padding: 8px;
   background-color: rgba(0,0,0,0.1);
@@ -17,6 +22,7 @@ body {
   border: 1px solid black;
   border-radius: 4px;  
   text-align: right;
+  min-height: 40px;
 }
 .row {
   display: flex;
