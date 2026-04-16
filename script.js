@@ -31,7 +31,7 @@ const operate = function(num1, op, num2) {
     break;
     case '/':
       if (num2 === 0) {
-        return 'Are you kidding me :)';
+        return 'Not today :)';
       } else {
       result = divide(num1,num2);
       }
